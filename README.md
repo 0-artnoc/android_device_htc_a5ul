@@ -16,7 +16,7 @@ Display | 720 x 1280 pixels ,5.5" Super LCD2
 Rear Camera  | 13 MP, f/2.2, 28mm, autofocus, LED flash
 Front Camera | 5 MP, 1080p
 
-![Htc Desire 816 vm](http://cdn2.gsmarena.com/vv/pics/htc/htc-desire-816-dual-sim.jpg "Htc Desire 816 vm")
+![Htc Desire 816 vm](http://hdimages-raw.s3.amazonaws.com/htc710c-1418189658-0.jpg "Htc Desire 816 vm")
 
 for HTC desire 816 htc_a5,htc_a5tl,htc_a5chl,htc_a5ul,a5,a5tl,a5chl,a5ul
 
