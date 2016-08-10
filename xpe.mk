@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The XPerience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,9 +20,9 @@
 $(call inherit-product, device/htc/a5ul/full_a5ul.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/XPe/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common XPe stuff.
+$(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_a5ul
+PRODUCT_NAME := xpe_a5
