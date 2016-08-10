@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2016 The XPerience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -42,7 +41,7 @@ BOARD_RIL_CLASS := ../../../device/htc/a5ul/ril
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_LIBINIT_DEFINES_FILE := device/htc/a5/init/init_a5ul.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/htc/a5ul/init/init_a5ul.cpp
 
 # Inherit from the proprietary version
 -include vendor/htc/a5ul/BoardConfigVendor.mk

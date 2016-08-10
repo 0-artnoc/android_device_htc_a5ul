@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2016 The XPerience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,12 +16,12 @@
 # apns
 #PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
 
-$(call inherit-product, device/htc/a5/full_a5ul.mk)
+$(call inherit-product, device/htc/a5ul/full_a5ul.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/XPe/config/nfc_enhanced.mk)
 
-# Inherit some common XPe stuff.
+# Inherit some common CM stuff.
 $(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
-PRODUCT_NAME := xpe_a5
+PRODUCT_NAME := xpe_a5ul

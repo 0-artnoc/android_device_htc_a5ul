@@ -26,12 +26,12 @@
 # Inherit a5ul-specific vendor tree
 $(call inherit-product-if-exists, vendor/htc/a5ul/a5ul-vendor.mk)
 
-# Inherit from a5
-$(call inherit-product, device/htc/a5/device.mk)
+# Inherit from a5ul
+$(call inherit-product, device/htc/a5ul/device.mk)
 
 # Set those variables here to overwrite the inherited values
 PRODUCT_NAME := full_a5ul
-PRODUCT_DEVICE := a5chl
+PRODUCT_DEVICE := a5ul
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
-PRODUCT_MODEL := a5chl
+PRODUCT_MODEL := a5ul
