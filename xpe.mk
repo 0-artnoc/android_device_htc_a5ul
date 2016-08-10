@@ -17,7 +17,7 @@
 # apns
 #PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
 
-$(call inherit-product, device/htc/a5ul/full_a5ul.mk)
+$(call inherit-product, device/htc/a5/full_a5ul.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/XPe/config/nfc_enhanced.mk)
