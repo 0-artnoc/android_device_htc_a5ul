@@ -1,1 +1,15 @@
 *~
+*.DS_Store
+.DS_Store   new file:   .DS_Store
+#       modified:   .gitignore
+#       modified:   device.mk
+#       new file:   dt
+#       deleted:    init/Android.mk
+#       deleted:    init/init_a5ul.cpp
+#       new file:   overlay/.DS_Store
+#       new file:   overlay/frameworks/.DS_Store
+#       new file:   overlay/frameworks/base/.DS_Store
+#       new file:   overlay/frameworks/base/core/.DS_Store
+#       new file:   overlay/frameworks/base/core/res/.DS_Store
+#       new file:   overlay/frameworks/base/core/res/res/.DS_Store
+#       new file:   ril/.DS_Store
