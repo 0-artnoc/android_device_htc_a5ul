@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
-    com.android.nfc_extras 
+    com.android.nfc_extras
 
 # Overrides
 PRODUCT_COPY_FILES_OVERRIDES := \
