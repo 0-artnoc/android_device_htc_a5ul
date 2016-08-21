@@ -54,6 +54,12 @@ PRODUCT_PACKAGES += \
     libnfc_nci_jni \
     com.android.nfc_extras
 
+# ANT+
+PRODUCT_PACKAGES += \
+AntHalService \
+com.dsi.ant.antradio_library \
+libantradio
+
 # Overrides
 PRODUCT_COPY_FILES_OVERRIDES := \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
