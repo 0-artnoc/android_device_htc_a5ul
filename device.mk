@@ -50,6 +50,8 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     nfc_nci.pn54x.default \
+    libnfc-nci \
+    libnfc_nci_jni \
     com.android.nfc_extras
 
 # Overrides
