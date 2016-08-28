@@ -25,3 +25,9 @@ $(call inherit-product, vendor/XPe/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
 PRODUCT_NAME := xpe_a5ul
+PRODUCT_DEVICE := a5ul
+PRODUCT_BRAND := htc
+PRODUCT_MANUFACTURER := htc
+PRODUCT_MODEL := a5ul
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=htc/xpe_a5ul/a5ul:7.0/NRD90M/eng.klozz.707MX:userdebug/test-keys
