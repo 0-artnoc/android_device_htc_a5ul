@@ -37,11 +37,6 @@ else
     NFCEE_ACCESS_PATH := $(LOCAL_PATH)/configs/nfcee_access_debug.xml
 endif
 
-
-# Prebuilt Kernel
-PRODUCT_COPY_FILES += \
-$(LOCAL_PATH)/zImageCM:kernel
-
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml \
     $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
