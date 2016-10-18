@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     libnfc-nci \
     libnfc_nci_jni \
-    nfcse_access.xml \
     com.android.nfc_extras
 
 # ANT+
