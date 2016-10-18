@@ -37,9 +37,10 @@ else
     NFCEE_ACCESS_PATH := $(LOCAL_PATH)/configs/nfcee_access_debug.xml
 endif
 
+
 # Prebuilt Kernel
 PRODUCT_COPY_FILES += \
-$(LOCAL_PATH)/zImage:kernel
+$(LOCAL_PATH)/zImageCM:kernel
 
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml \
