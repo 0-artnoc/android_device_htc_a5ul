@@ -94,12 +94,13 @@ void vendor_load_properties()
         property_set("ro.product.model", "710C");
         property_set("ro.product.device", "htc_a5chl");
         property_set("ro.build.product", "htc_a5chl");
-/*        property_set("gsm.sim.operator.numeric", "310120");
-        property_set("gsm.operator.numeric", "310120");
-        property_set("gsm.sim.operator.alpha", "Sprint");
-        property_set("gsm.operator.alpha", "310120");
+        property_set("gsm.sim.operator.numeric", "000000");
+        property_set("gsm.operator.numeric", "000000");
+        property_set("gsm.sim.operator.alpha", "Chameleon");
+        property_set("gsm.operator.alpha", "Chameleon");
         property_set("ro.cdma.home.operator.numeric", "311490");
-        property_set("ro.cdma.home.operator.alpha", "Virgin Mobile"); */
+        property_set("ro.cdma.home.operator.alpha", "Virgin Mobile"); 
+        property_set("ro.home.operator.carrierid", "Sprint"); 
         property_set("ro.ril.oem.ecclist", "911");
         property_set("ro.ril.set.mtusize", "1422");
         property_set("gsm.sim.operator.iso-country", "us");

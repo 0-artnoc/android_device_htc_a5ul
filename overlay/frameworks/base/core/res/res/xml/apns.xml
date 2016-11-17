@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+<!-- If you edit this version, also edit the version in the partner-supplied
+    apns-conf.xml configuration file -->
 <apns version="8">
+
 <!-- Sprint/Virgin Mobile -->
 	<!-- Modify APN for Sprint LTE support -->
 	<apn carrier="LTE - SPRINT test ISP" mcc="001" mnc="01" apn="n.ispsn" type="default,mms" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
@@ -20,8 +42,8 @@
 	<!-- END APN database for Sprint EHRPD support -->
 
 	<!-- VIRGIN MOBILE CUSTOM APNS -->
-	<apn carrier="APN1 Virgin Internet LTE" operator="Virgin Mobile" numeric="310120" mcc="310" mnc="120" apn="n.vmu.ispsn" user="Sprint" server="" password="*" proxy="null" port="null" mmsproxy="68.28.31.7" mmsport="80" mmsprotocol="null" mmsc="http://mmsc.vmobl.com:8088/mms?type=null" type="default,supl,mms,fota,dun" bearer="14" /> 
-	<apn carrier="APN2 Virgin Internet EHRPD" operator="Virgin Mobile" numeric="310120" mcc="310" mnc="120" apn="n.vmu.ispsn" user="Sprint" server="" password="*" proxy="null" port="null" mmsproxy="68.28.31.7" mmsport="80" mmsprotocol="null" mmsc="http://mmsc.vmobl.com:8088/mms?type=null" type="default,supl,mms,fota,dun" bearer="13" />
+	<apn carrier="APN1 Virgin Internet LTE" operator="Virgin Mobile" numeric="311490" mcc="311" mnc="490" apn="n.vmu.ispsn" user="Sprint" server="" password="*" proxy="null" port="null" mmsproxy="68.28.31.7" mmsport="80" mmsprotocol="null" mmsc="http://mmsc.vmobl.com:8088/mms?type=null" type="default,supl,mms,fota,dun" bearer="14" /> 
+	<apn carrier="APN2 Virgin Internet EHRPD" operator="Virgin Mobile" numeric="311490" mcc="311" mnc="490" apn="n.vmu.ispsn" user="Sprint" server="" password="*" proxy="null" port="null" mmsproxy="68.28.31.7" mmsport="80" mmsprotocol="null" mmsc="http://mmsc.vmobl.com:8088/mms?type=null" type="default,supl,mms,fota,dun" bearer="13" />
 	<!-- END VIRGIN MOBILE CUSTOM APNS-->
 <!-- END Sprint/Virgin Mobile-->
 </apns>
